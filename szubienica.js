@@ -119,7 +119,7 @@ function sprawdz(nr)
       
 
       ile_skuch++;
-      var obraz = "img/v"+ ile_skuch + ".jpg";
+      var obraz = "v"+ ile_skuch + ".jpg";
       document.getElementById("szubienica").innerHTML = '<img src="'+obraz+'" alt="" />';
     }
 
